@@ -54,7 +54,24 @@ Uploading hypnotoad with http://i.imgur.com/o7tyjxN.gif
 Uploaded emojis
 ```
 
+## Docker
+
+Emojipacks has been containerized for those who do not want to spend the time installing node and its dependecies. 
+
+```bash
+docker build -t emojipacks:latest .
+```
+
+```bash
+docker run emojipacks:latest
+```
+
+``` bash
+docker run emojipacks:latest -s <subdomain> -e <email> -p <password> -y <yaml_file>
+```
+
 Note that the emoji pack to upload can be a **path** to a yaml file on your machine or a **URL**, like [http://www.emojipacks.com/packs/food.yaml](http://www.emojipacks.com/packs/food.yaml).
+
 
 ## Optionally Pass Command Line Parameters
 
@@ -141,6 +158,7 @@ emojis:
 - [Shiba Stickers](https://raw.githubusercontent.com/lambtron/emojipacks/master/packs/shiba.yaml) (from Messenger)
 - [gamedevmoji](https://raw.githubusercontent.com/niksudan/gamedevmoji/master/gamedevicons.yaml)
 - [AWS simple icons](https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/noprefix-emojipacks.yml)
+- [Glitch Food](https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/glitch-food.yaml) (h/t [bertrandom/slack-custom-food-emoji](https://github.com/bertrandom/slack-custom-food-emoji))
 
 ### Emoji packs from [slackmojis.com](http://www.slackmojis.com)
 

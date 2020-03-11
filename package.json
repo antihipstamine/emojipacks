@@ -3,6 +3,7 @@
   "description": "CLI to upload emojis to Slack",
   "version": "0.2.1",
   "author": "Andy Jiang",
+  "license": "MIT",
   "main": "./bin/emojipacks",
   "keywords": [
     "emojis",
@@ -34,13 +35,13 @@
   },
   "dependencies": {
     "chalk": "^1.1.0",
-    "cheerio": "^0.19.0",
+    "cheerio": "^0.22.0",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
-    "commander": "^2.8.1",
+    "commander": "^2.20.3",
     "debug": "^2.2.0",
-    "js-yaml": "^3.3.1",
-    "request": "^2.60.0",
+    "js-yaml": "^3.13.1",
+    "request": "^2.88.2",
     "thunkify-wrap": "^1.0.4",
     "valid-url": "^1.0.9"
   },
